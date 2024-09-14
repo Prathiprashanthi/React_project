@@ -1,0 +1,59 @@
+.bio-graph-heading {
+    background: #FFB30E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease-in-out;
+}
+
+.bio-graph-heading:hover {
+    background: #FFB30E;
+}
+
+.bio-row {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bio-row:hover {
+    transform: scale(1.05);
+}
+
+.bio-row span {
+    font-weight: bold;
+    color: #FFB30E;
+    transition: color 0.3s ease-in-out;
+}
+
+.bio-row input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.bio-row input:focus {
+    border-color: #ffac1c;
+    outline: none;
+}
+
+button.btn-primary {
+    background: #FFB30E;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 30px;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button.btn-primary:hover {
+    background: #ffe11a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button.btn-primary:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}

@@ -1,0 +1,122 @@
+/* Section Padding */
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .py-md-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  /* Row and Columns */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  /* Image Styling */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  /* Headings and Text */
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  p.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #666;
+  }
+  
+  p.fs-5 {
+    font-size: 1.125rem;
+    color: #555;
+  }
+  
+  /* Check Icon and Text Alignment */
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .me-3 {
+    margin-right: 1rem;
+  }
+  
+  .text-primary {
+    color: #0d6efd;
+  }
+  
+  .m-0 {
+    margin: 0;
+  }
+  
+  /* Button Styling */
+  .bsb-btn-xl {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: transparent;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  
+  .rounded-pill {
+    border-radius: 50rem;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 992px) {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    p.lead {
+      font-size: 1rem;
+    }
+  }
+  

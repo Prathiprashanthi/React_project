@@ -1,0 +1,114 @@
+/* index.css */
+
+/* Full height section */
+.vh-100 {
+  min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+  padding: 0 15px;
+}
+
+/* Card styling */
+.card {
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  max-width: 1200px; /* Max width for large screens */
+  width: 100%; /* Full width within container */
+}
+
+/* Card body padding */
+.card-body {
+  padding: 2rem; /* Increased padding */
+}
+
+/* Form styling */
+.form-outline {
+  position: relative;
+  margin-bottom: 1.5rem; /* Space between form elements */
+}
+
+/* Input field styling */
+.form-control {
+  border-radius: 0.5rem; /* Rounded input corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Label styling */
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  background-color: #fff; /* White background */
+  padding: 0 0.25rem; /* Padding around label */
+  font-size: 0.875rem; /* Slightly smaller font size */
+}
+
+/* Flex alignment for form elements */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Margin adjustments */
+.mx-1 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-md-4 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-lg-4 {
+  margin-bottom: 2rem;
+}
+
+/* Button styling */
+.btn {
+  border-radius: 0.5rem; /* Rounded button corners */
+  padding: 0.75rem 1.5rem; /* Button padding */
+}
+
+/* Center text */
+.text-center {
+  text-align: center;
+}
+
+/* Image styling */
+.img-fluid {
+  max-width: 100%;
+  height: 100%; /* Maintain aspect ratio */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .card {
+    width: 90%; /* Adjust card width for smaller screens */
+  }
+
+  .d-flex {
+    flex-direction: column; /* Stack form elements vertically */
+  }
+
+  .mx-1, .mx-md-4, .mt-4, .mb-4, .mb-lg-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mx-md-4 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

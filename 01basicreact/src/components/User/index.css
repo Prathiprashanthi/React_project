@@ -1,0 +1,76 @@
+/* index.css */
+
+/* Ensure the section takes up the full viewport height */
+.vh-100 {
+    height: 100vh;
+  }
+
+
+  .custom-container{
+    width:1500px;
+  }
+  
+  /* Style the form inputs and labels */
+  .form-outline {
+    position: relative;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    padding: 12px 15px;
+  }
+  /* index.css */
+
+/* Increase the width of form inputs */
+.form-outline .form-control {
+    width: 100%; /* Ensure the input takes up full width of the parent */
+    padding: 0.75rem 1.25rem; /* Optional: Adjust padding for better appearance */
+  }
+  
+  /* Ensure the input labels are styled properly */
+  .form-outline .form-label {
+    margin-left: 0.75rem; /* Adjust label position */
+  }
+  
+
+  
+  .form-label {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: 0 5px;
+    background-color: white;
+    color: #666;
+    transition: 0.2s;
+  }
+  
+  .form-control:focus + .form-label,
+  .form-control:not(:placeholder-shown) + .form-label {
+    top: -8px;
+    left: 10px;
+    font-size: 12px;
+    color: #007bff;
+
+  }
+  
+  /* Style the submit button */
+  .btn-primary {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Style the text and link */
+  .text-center {
+    color: #333;
+  }
+  
+  .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,58 @@
+.Con{
+  width: 100%;
+  max-width: 500px; /* Adjust the form width for better responsiveness */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #7edbf7; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+.Controler{
+  height:90vh;
+  padding-top: 100px;
+}
+.form-outline {
+  position: relative;
+}
+
+.form-outline .form-label {
+  color: #6c757d; /* Muted color for labels */
+}
+
+.control-form {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  width:400px;
+
+
+}
+
+.control-form:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px; /* Rounded button */
+  transition: background-color 0.3s;
+ 
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Additional styling for form elements on hover/focus */
+.form-outline .form-control:focus ~ .form-label {
+  color: #007bff;
+}

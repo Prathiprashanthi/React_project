@@ -1,0 +1,103 @@
+/* Image Styling */
+img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover; /* Ensures the image fills the card nicely */
+    border-radius: 8px 8px 0 0; /* Smooth rounded corners at the top */
+  }
+  
+  /* Column Padding */
+  div[class^="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  /* Card Styling */
+  .card {
+    position: relative;
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    overflow: hidden; /* Ensure the contents stay inside the rounded corners */
+    transition: transform 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+    margin-bottom: 100px;
+    width:300px;
+
+  }
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  }
+  
+  /* Card Title Styling */
+  .card-title {
+    font-size: 16px; /* Slightly larger font size */
+    font-weight: bold;
+    transition: color 0.5s, transform 1s;
+    cursor: pointer;
+  }
+  
+  .card-title i {
+    font-size: 16px;
+    color: #ffa710;
+    transition: transform 0.5s, color 0.5s; /* Smoother transitions */
+  }
+  
+  .card-title i:hover {
+    transform: scale(1.25) rotate(100deg);
+    color: #18d4ca; /* Changes color on hover */
+  }
+  
+  /* Card Text */
+  .card-text {
+    height: 80px;
+    overflow: hidden; /* Ensures content does not overflow */
+    text-overflow: ellipsis; /* Adds '...' if the text is too long */
+  }
+  
+  /* Hover Effects on Card */
+  .card::before,
+  .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform 0.3s ease-out;
+    background: rgba(255, 255, 255, 0.1);
+    content: "";
+    pointer-events: none;
+  }
+  
+  .card::before {
+    transform-origin: left top;
+  }
+  
+  .card::after {
+    transform-origin: right bottom;
+  }
+  
+  .card:hover::before,
+  .card:hover::after,
+  .card:focus::before,
+  .card:focus::after {
+    transform: scale3d(1, 1, 1); /* Adds subtle glow on hover */
+  }
+  
+  /* Add some padding to the card content */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* For a smoother font appearance */
+  body {
+    font-family: 'Poppins', sans-serif; 
+    /* Optional: Use a modern font like Poppins */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Box shadow improvements */
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* More depth on hover */
+  }
+  

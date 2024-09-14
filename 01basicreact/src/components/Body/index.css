@@ -1,0 +1,86 @@
+
+.mainBody{
+
+ min-height: 90vh;
+}
+/* General Styles for the Section */
+#home {
+    background-color: #007bff; /* Primary color */
+    color: #fff; /* White text color for contrast */
+    padding: 3rem 0; /* Vertical padding */
+  }
+  
+  .img-landing-banner img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem; /* Space below headings */
+  }
+  
+  .display-1 {
+    font-size: 3rem; /* Large font size for display */
+  }
+  
+  .fs-md-5 {
+    font-size: 2rem; /* Adjust font size for medium screens */
+  }
+  
+  .fs-lg-6 {
+    font-size: 2.5rem; /* Adjust font size for large screens */
+  }
+  
+  .fs-xl-8 {
+    font-size: 3.5rem; /* Adjust font size for extra-large screens */
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem; /* Space below text */
+  }
+  
+  .btn-danger {
+    width:150px;
+    background-color: #dc3545; /* Red background for button */
+    border-color: #dc3545; /* Match border color with background */
+    color: #fff; /* White text color */
+    padding: 0.5rem 1rem; /* Padding inside button */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #bd2130; /* Darker red border on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .display-1 {
+      font-size: 2.5rem; /* Smaller font size for small screens */
+    }
+  
+    .fs-md-5, .fs-lg-6, .fs-xl-8 {
+      font-size: 1.5rem; /* Smaller font size for medium screens */
+    }
+  
+    .mb-5 {
+      margin-bottom: 2rem; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  /* Flex Centering */
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .d-grid {
+    display: grid;
+  }
+  
+  .gap-3 {
+    gap: 1rem; /* Space between grid items */
+  }
+  .card-img{
+    height:500px;
+  }
